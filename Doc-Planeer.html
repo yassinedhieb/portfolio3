@@ -6,31 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc-Planner</title>
     <link rel="stylesheet" type="text/css" href="style/doc.css">
+    <style>
+        a:hover {
+  color: #41C2A6;
+}
+    </style>
 </head>
 
 <body>
     <header>
         <div>
-            <img src="docplanner-group.jpg">
-        </div>
-        <div class="doc">
-            <img src="docplanner.png" width="100" height="100">
+            <img src="docplanner-group.png">
         </div>
         <nav class="box1">
             <div>
-                <a href="/About us"> About us </a>
+                <a href="/About us" class="box1-1"> About us </a>
             </div>
             <div>
-                <a href="/Career"> Career </a>
+                <a href="/Career" class=box1-2> Career </a>
             </div>
             <div>
-                <a href="/Departments"> Departments </a>
+                <a href="/Departments" class=box1-2> Departments </a>
             </div>
         </nav>
-    
     </header>
     <main>
         <section>
+            <div class="doc">
+                <img src="docplanner.png" width="50" height="50">
+            </div>
             <div class="first-head">
                 <h1>Making the healthcare experience more human</h1>
             </div>
@@ -54,11 +58,11 @@
             <div class="part2">
                 <div>
                     <div class="part2-1arrange">
-                    <p>For patients</p>
+                    <p class ="part2-1left">For patients</p>
                     <h1 class="part2-2-text">Find a doctor, book a visit and solve any health-related doubt</h1>
                     </div>
                     <div class="part2-2">
-                    <label>choose country</label>
+                        <label>choose country</label>
                     <select name="pays">
                     <option value="France" selected="selected">France </option>
 
@@ -322,7 +326,7 @@
                 <br>
                 <div class="part2-2right">
                     <div class="part2-2arrange">
-                    <p>For doctors</p>
+                    <p class="part2-1left">For doctors</p>
                     <h1 class="part2-2-text">Save time managing visits and cut no-shows by half</h1>
                     </div>
                     <div class="part2-2image">
@@ -340,27 +344,27 @@
                 </div>
                 <div class="part3_wrap">
                 <div class="part3-links">
-                <a href="ZnanyLekarz">
+                <a href="ZnanyLekarz" class="box1-2">
                     <p>ZnanyLekrarz</p>
                 </a>
                 </div>
                 <div class="part3-links">
-                <a href="Doctoralia">
+                <a href="Doctoralia" class="box1-2">
                     <p>Doctoralia</p>
                 </a>
                 </div>
                 <div class="part3-links">
-                <a href="MioDottore">
+                <a href="MioDottore" class="box1-2">
                     <p>MioDottore</p>
                 </a>
                 </div>
                 <div class="part3-links">
-                <a href="DoktorTakvimi">
+                <a href="DoktorTakvimi" class="box1-2">
                     <p>DoktorTakvimi</p>
                 </a>
                 </div>
                 <div class="part3-links">
-                <a href="ZnamyLekar">
+                <a href="ZnamyLekar" class="box1-2">
                     <p>ZnamyLekar</p>
                 </a>
                 </div>
@@ -384,47 +388,47 @@
                 </div>
                 <div class="box4-right">
                         <div class="box4-right1">
-                            <div>
+                            <div class="box4-img">
                             <img src="flag.JPG">
                             </div>
                             <div>
-                            <h3>Leader in 10 countries</h3>
+                            <h3 class="box4-head">Leader in 10 countries</h3>
                             </div>
                             <div>
-                            <p>Poland, Turkey, Spain, Italy, Czech Republic, Mexico, Brazil, Colombia, Argentina and Chile</p>
+                            <p class="box4-text">Poland, Turkey, Spain, Italy, Czech Republic, Mexico, Brazil, Colombia, Argentina and Chile</p>
                             </div>
                         </div>
                         <div>
-                            <div>
+                            <div class="box4-img">
                             <img src="appointments.JPG">
                             </div>
                             <div>
-                            <h3>1,5 million appointments</h3>
+                            <h3 class="box4-head">1,5 million appointments</h3>
                             </div>
                             <div>
-                            <p>booked last month</p>
+                            <p class="box4-text">booked last month</p>
                             </div>
                         </div>
                         <div>
-                            <div>
+                            <div class="box4-img">
                             <img src="people.JPG">
                             </div>
                             <div>
-                            <h3>30 million unique patients</h3>
+                            <h3 class="box4-head">30 million unique patients</h3>
                             </div>
                             <div>
-                            <p>visit us every month</p>
+                            <p class="box4-text">visit us every month</p>
                             </div>
                         </div>
                         <div>
-                            <div>
+                            <div class="box4-img">
                             <img src="doctors.JPG">
                             </div>
                             <div>
-                            <h3>2 million active dotors</h3>
+                            <h3 class="box4-head">2 million active dotors</h3>
                             </div>
                             <div>
-                            <p>trust in our solutions</p>
+                            <p class="box4-text">trust in our solutions</p>
                             </div>
                         </div>
                 </div>  
@@ -435,7 +439,7 @@
                 <h1>Improve the lives of millions. Change yours forever</h1>
             </div>
             <div>
-                <p>More than 1000 team mates share our same vision, goals and passion. With offices in Warsaw, Barcelona, Istanbul, Rome, Mexico City and Curitiba, our search for great talent never stops.
+                <p class="box5-text">More than 1000 team mates share our same vision, goals and passion. With offices in Warsaw, Barcelona, Istanbul, Rome, Mexico City and Curitiba, our search for great talent never stops.
                 </p>
             </div>
         </sections>
@@ -451,7 +455,7 @@
                 <img src="Barca.JPG" width="250px">
                 <h1>Barcelona</h1>
                 <input type="submit" name="Openings"
-                value="See Openings">
+                value="See Openings" class="button">
             </div>
             <br>
             <div>

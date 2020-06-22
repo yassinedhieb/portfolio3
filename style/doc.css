@@ -1,12 +1,15 @@
 .box{
-    margin-left: 200px;
-    margin-right:200px;
+    margin-left: 180px;
+    margin-right:180px;
 }
+
 header{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     position: fixed;
+    top:0;
+
 }
 div{
     border:white;
@@ -15,7 +18,23 @@ div{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 20px;
+    padding-left:30px;
+    margin-left: 350px;
+
+}
+.box1-1{
+    padding:20px;
+    color:#41C2A6;
+    
+}
+.box1-2{
+    padding:20px;
+    color:#8B9693;
+}
+.doc{
+    padding:10px 300px 10px 470px;
+    margin-top: 100px;
 }
 .first-head{
 
@@ -36,6 +55,9 @@ h1{
 .part2{
     display:flex;
     flex-direction:row;
+}
+.part2-1left{
+    color:#B8BEBF;
 }
 .part2-2{
     display:flex;
@@ -81,11 +103,22 @@ width: 500px;
     display:flex;
     flex-direction:row;
 }
+.box4-img{
+    padding-left:70px ;
+}
+.box4-head{
+    color:#41C2A6;
+    text-align: center;
+    padding: 13px;
+}
+.box4-text{
+    padding-left: 40px;
+}
 .box4-right{
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .box4-right1{
     display:flex;
@@ -97,6 +130,12 @@ width: 500px;
     margin: 10px 100px 10px 100px;
     padding-left: 50px;
     padding-right:50px;
+    text-align: center;
+}
+.box5-text{
+    margin-left:300px;
+    margin-right:300px ;
+    text-align: center;
 }
 .box5{
     display:flex;
@@ -113,8 +152,23 @@ width: 500px;
 .box6-text{
     font-size: 13px;
     color:#949799;
+    padding-left: 30px;
+    text-align: center;
 
 }
 .box4-1{
     background-color: #B8E0E9;
 }
+.button{
+    color:#3454F6;
+}
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: black;
+    }
+  
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }}
